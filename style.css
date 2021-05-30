@@ -1,0 +1,338 @@
+body{
+  font-family: 'Bai Jamjuree';
+  text-align: center;
+  background-color: white;
+}
+
+h1,h2,h3,h4,h6{
+  color:hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+
+p{
+  color:hsl(201, 11%, 66%);
+  font-weight:400;
+}
+
+/*top-section*/
+#top-container {
+  background: url("images/bg-header-desktop.png") no-repeat;
+  max-width: 100%;
+}
+
+#top-container img{
+  transform: scale(0.75);
+  padding:6% 0 2% 0;
+}
+
+.top_container_tagline{
+   margin: auto;
+   width: 45%;
+}
+
+/*button ---> same css followed for bottom-container*/
+.button_container{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  padding-top:3%;
+}
+
+.btn{
+  padding: 0.625rem 1.563rem 0.625rem 1.563rem;
+  color:white;
+  border-radius: 1.75rem;
+  font-weight:400;
+}
+
+.btn:hover{
+  color:white;
+}
+
+.bt-ios{
+  background-color:hsl(171, 66%, 44%);
+  margin-right: 0.625rem;
+}
+
+.bt-ios:hover{
+  background-color:rgba(38,186,164,0.5);
+}
+
+.bt-mac{
+  background-color:hsl(233, 100%, 69%);
+}
+
+.bt-mac:hover{
+  background-color:rgba(97,115,255,0.5);
+}
+
+/*tracking*/
+#tracking{
+  padding-top:8%;
+}
+
+.tracking_tagline{
+  padding-top:1%;
+  width:50%;
+  margin:auto;
+}
+
+#tracking img{
+  transform:scale(0.8);
+  margin-left:-9%;
+  width: 100%;
+  height: auto;
+}
+
+.tracking_container{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  text-align:left;
+  padding-top: 5%;
+}
+
+.tracking_info{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  padding:7% 0 0 5%;
+}
+
+.track{
+  width:60%;
+}
+
+/*clipboard*/
+#clipboard{
+  padding-top:5%;
+}
+
+.clipboard_tagline{
+  width:50%;
+  margin:auto;
+  padding-top: 1%;
+}
+
+.devices{
+  transform:scale(0.8);
+  width: 100%;
+  height: auto;
+}
+
+#clipboard h3{
+  padding-bottom: 1%;
+}
+
+.clip{
+  padding:4% 0 5% 0;
+}
+
+.clip img{
+  padding-bottom: 7%;
+}
+
+.row h4{
+  padding-bottom:3%;
+}
+
+.row p{
+  line-height:1.5;
+  width:90%;
+  margin:auto;
+}
+
+/*bottom-section*/
+#bottom-container{
+  padding:5% 0 7% 0;
+}
+
+.logo{
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between;
+  padding:0 5% 7% 5%;
+}
+
+#bottom-container h2{
+  padding-bottom:1%;
+}
+
+#bottom-container p{
+  width:50%;
+  margin:auto;
+  padding-bottom: 4%;
+}
+/*contact-us*/
+#contact_us{
+  background-color:rgba(159, 171, 178,0.1);
+}
+
+.bottom_logo{
+  transform:scale(0.3);
+}
+
+.contact_info{
+  padding-top:3%;
+  text-align: left;
+}
+
+.social_media{
+  padding:5%;
+}
+
+.social_media img{
+  padding-left: 6%;
+}
+
+/*footer*/
+.attribution {
+  font-size: 11px; text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*media rule : Mobile css */
+@media screen and (max-width: 768px){
+
+/*top section*/
+#top_container{
+  background: url("images/bg-header-mobile.png") no-repeat;
+  max-width: 100%;
+}
+
+h1{
+  width:60%;
+  margin:auto;
+  padding:4% 0 5% 0;
+}
+
+.top_container_tagline{
+  width:60%;
+}
+
+/*button*/
+.button_container{
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-mac{
+  padding-top: 3.5%;
+}
+
+/*tracking*/
+#tracking{
+  padding-top:20%;
+}
+
+#tracking h2{
+  width:50%;
+  margin:auto;
+  padding-bottom:3%;
+}
+
+.tracking_tagline{
+   width:60%;
+   margin:auto;
+}
+
+#tracking img{
+  margin:auto;
+}
+
+.tracking_container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.tracking_info{
+  width:100%;
+  margin:auto;
+  margin-right:-15%;
+}
+
+.track{
+  padding-bottom:5%;
+}
+
+/*clipboard*/
+#clipboard{
+  padding-top:20%;
+}
+
+#clipboard h2{
+  width:50%;
+  margin:auto;
+  padding-bottom:4%;
+}
+
+.clipboard_tagline{
+  width:70%;
+  margin:auto;
+}
+
+.devices{
+  transform:scale(0.7);
+  padding-bottom:3%;
+}
+
+#clipboard h3{
+  width:50%;
+  margin:auto;
+  padding-bottom:2%;
+}
+
+.sub-para{
+  width:60%;
+  margin:auto;
+  padding-bottom:7%;
+}
+
+.clip p{
+  width:65%;
+  margin:auto;
+  padding-bottom:10%;
+}
+
+/*bottom section*/
+#bottom-container{
+  padding:5% 0 15% 0;
+}
+
+.logo{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-between;
+  padding-bottom:12%;
+}
+
+.logo img{
+  padding-bottom:15%;
+}
+
+#bottom-container h2{
+  width:60%;
+  margin:auto;
+}
+
+#bottom-container p{
+  width:60%;
+  margin:auto;
+  padding-bottom:6%;
+}
+
+/* contact us section*/
+.contact_info{
+ text-align:center;
+}
+
+.info{
+  padding-bottom: 4%;
+}
+
+}
