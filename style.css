@@ -224,6 +224,10 @@ h1{
   padding-top: 3.5%;
 }
 
+.bt-ios{
+  margin-left: 0.625rem;
+}
+  
 /*tracking*/
 #tracking{
   padding-top:20%;
