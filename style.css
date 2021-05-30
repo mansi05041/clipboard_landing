@@ -18,6 +18,7 @@ p{
 #top-container {
   background: url("images/bg-header-desktop.png") no-repeat;
   max-width: 100%;
+  background-size: cover;
 }
 
 #top-container img{
