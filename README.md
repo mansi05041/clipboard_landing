@@ -52,27 +52,27 @@ To make website responsive i have use bootstrap feature of column breakpoint at 
 
           <div class="row">
             <div class="col-lg-4 info">
-              <h6>FAQs</h6>
+              <a href="#tracking"><h6>FAQs</h6></a>
             </div>
             <div class="col-lg-4 info">
-              <h6>Privacy Policy</h6>
+              <a href="#clipboard"><h6>Privacy Policy</h6></a>
             </div>
             <div class="col-lg-4 info">
-              <h6>Install Guide</h6>
+              <a href="#top-container"><h6>Install Guide</h6></a>
             </div>
           </div>
 
           <div class="row">
             <div class="col-lg-4 info">
-              <h6>Contact Us</h6>
+              <a href="#contact_us"><h6>Contact Us</h6></a>
             </div>
             <div class="col-lg-4 info">
-              <h6>Press Kit</h6>
+              <a href="#bottom-container"><h6>Press Kit</h6></a>
             </div>
           </div>
 
 ```
-use bootstrap for two rows
+use bootstrap for two rows & wrap them in anchor tag linking to the section of page for easy approach
 
 ### Continued development
 
