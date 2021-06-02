@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/mansi05041/clipboard_landing.github.io]
-- Live Site URL: [https://mansi05041.github.io/clipboard_landing.github.io/]
+- Live Site URL: [https://clipboard-landing-github-io.vercel.app/]
 
 ## My process
 
